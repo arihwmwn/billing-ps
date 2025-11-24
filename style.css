@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background: #e5e5e5; margin: 0; padding: 20px; }
+h1 { text-align: center; margin-bottom: 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 15px; }
+.unit { background: #fff; border-radius: 10px; box-shadow: 0 3px 5px rgba(0,0,0,0.12); padding: 12px; }
+.header { background: #28a745; color: white; padding: 8px; border-radius: 7px; text-align: center; font-weight: bold; }
+.status-running { background: #ffc107 !important; color: #000 !important; }
+.info { margin-top: 10px; font-size: 14px; min-height: 56px; }
+label { display:block; margin-top:8px; font-size:13px; }
+input { width: 100%; padding: 6px; margin-top: 5px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box; }
+.controls { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px }
+button { padding: 8px 10px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; }
+.btn-start { background: #007bff; color: #fff; }
+.btn-pause { background: #6c757d; color: #fff; }
+.btn-resume { background: #17a2b8; color: #fff; }
+.btn-reset { background: #ffc107; color: #000; }
+.btn-stop { background: #dc3545; color: #fff; }
+.btn-paket { background: #8b5cf6; color: white; }
+small.note { color:#555 }
